@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>ThirdCSS</title>
+</head>
+<body>
+    <table class="main">
+        <thead>
+            <tr>
+                <th>Naziv</th>
+                <th>Kolicina</th>
+                <th>Mesto</th>
+                <th>Cena</th>
+                <th>Izmena</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Xiaomi Redmi 9A</td>
+                <td>15</td>
+                <td>Tehnomanija</td>
+                <td>25000</td>
+                <td>
+                    <button>Izmeni</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Sportska jakna</td>
+                <td>5</td>
+                <td>Intersport</td>
+                <td>13000</td>
+                <td>
+                    <button>Izmeni</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Decja kolica</td>
+                <td>2</td>
+                <td>Aksa</td>
+                <td>62500</td>
+                <td>
+                    <button>Izmeni</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Kozna garnitura</td>
+                <td>2</td>
+                <td>Lesnina</td>
+                <td>205000</td>
+                <td>
+                    <button>Izmeni</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Sator za kampovanje</td>
+                <td>16</td>
+                <td>Decalthon</td>
+                <td>8499</td>
+                <td>
+                    <button>Izmeni</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>Naziv:</td>
+                <td>
+                    <input type="text" name="naziv">
+                </td>
+            </tr>
+            <tr>
+                <td>Kolicina:</td>
+                <td>
+                    <input type="number" name="kolicina">
+                </td>
+            </tr>
+            <tr>
+                <td>Mesto:</td>
+                <td>
+                    <select name="mesto" id="mesto">
+                        <option value="lesnina">Lesnina</option>
+                        <option value="tehnomanija">Tehnomanija</option>
+                        <option value="aksa">Aksa</option>
+                        <option value="intersport">Intersport</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Cena:</td>
+                <td>
+                    <input type="number" name="cena">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="last">
+                    <input type="submit" value="Posalji" id="red">
+                    <input type="reset" value="Ponisti" id="blue">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

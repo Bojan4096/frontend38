@@ -1,0 +1,50 @@
+/* importovanje fonta */
+/* @font-face {
+    font-family: mojfont;
+    src: url("URL_DO_FONTA");
+} */
+
+#first {
+    background-color: rgb(106, 130, 209);
+    width: 40%;
+    padding: 3px 3px 30px 3px;
+    border: 1px solid blue;
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+
+#second {
+    background-color: rgb(110, 124, 173);
+    width: 40%;
+    padding: 3px 3px 10px 3px;
+    border: 1px dashed rgb(40, 40, 88);
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+
+#third {
+    background-color: rgb(76, 185, 67);
+    width: 40%;
+    padding: 3px 3px 10px 3px;
+    border: 1px solid rgb(16, 94, 26);
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+#fourth {
+    background-color: rgb(233, 226, 188);
+    width: 40%;
+    padding: 3px 3px 10px 3px;
+    border: 6px dashed rgb(198, 201, 10);
+    margin-left: auto;
+}
+
+#fifth {
+    background-color: rgb(230, 135, 91);
+    width: 20%;
+    padding: 3px 3px 10px 3px;
+    border: 4px dashed rgb(201, 10, 10);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-bottom: 2%;
+}

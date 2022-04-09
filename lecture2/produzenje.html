@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produzenje</title>
+</head>
+<body>
+    <h1>Produzenje registracije</h1>
+    <p>Na ovoj stranici mozete obaviti produzenje registracije vaseg automobila</p>
+    <p>Molimo vas da popunite sledeci formular:</p>
+    <form action="registrovani.html" method="post">
+        <table border="2">
+            <tr>
+                <th colspan="2">Produzenje registracije</th>
+            </tr>
+            <tr>
+                <td>Ime:</td>
+                <td><input type="text" name="ime"></td>     
+            </tr>
+            <tr>
+                <td>Prezime:</td>
+                <td><input type="text" name="prezime" autofocus></td>     
+            </tr>
+            <tr>
+                <td>JMBG:</td>
+                <td><input type="number" name="jmbg" required></td>     
+            </tr>
+            <tr>
+                <td>Marka vozila:</td>
+                <td>
+                    <input list="marka" name="marke" id="marke">
+                    <datalist name="marka" id="marka">
+                        <option value="mercedes">
+                        <option value="bmw">
+                        <option value="honda">
+                        <option value="toyota">
+                    </datalist>
+                </td>     
+            </tr>
+            <tr>
+                <td>Tip vozila:</td>
+                <td><input type="text" name="tip"></td>     
+            </tr>
+            <tr>
+                <td>Registarska oznaka:</td>
+                <td><input type="text" name="oznaka"></td>     
+            </tr>
+            <tr>
+                <td>Boja vozila:</td>
+                <td>
+                    <input type="color">
+                </td>     
+            </tr>
+            <tr>
+                <td>Datum prethodne registracije:</td>
+                <td><input type="date" name="datum"></td>     
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Posalji input">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

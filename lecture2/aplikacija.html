@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body>
+    <h1>Application for permission to date my daughter</h1>
+    <p><b>Note: </b>Form is to be completed at least 21 days prior to date</p>
+    <form action="registracija.html" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Person Details</legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Enter Name here">
+            </div>
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" placeholder="Enter address here">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Enter email here">
+            </div>
+            <div>
+                <label for="phone">Phone number</label>
+                <input type="tel" name="phone" placeholder="Enter phone here">
+            </div>
+            <div>
+                <label for="iq">IQ: </label>
+                <input type="number" name="iq" max="160" min="0" placeholder="Enter IQ here">
+            </div>
+            <label for="gender">Gender</label>
+            <div id="gender">
+                <input type="radio" id="male" name="male" value="male"
+                       checked>
+                <label for="male">Male</label>
+            </div>
+              
+            <div>
+                <input type="radio" id="female" name="female" value="female">
+                <label for="female">Female</label>
+            </div>
+              
+            <div>
+                <input type="radio" id="other" name="other" value="other">
+                <label for="other">Other</label>
+            </div>
+            <div>
+                <label for="date">Date of proposed outing</label>
+                <input type="date" name="date">
+            </div>
+        </fieldset>
+        <fieldset>
+            <p>Check all that Apply</p>
+            <div>
+                <input type="checkbox" id="tattoos" name="tattoos">
+                <label for="tattoos">I have tattoos and/or piecings</label>
+            </div>         
+            <div>
+                <input type="checkbox" id="older" name="older">
+                <label for="older">I am more than 2 years older than your daughter</label>
+            </div>
+            <div>
+                <input type="checkbox" id="van" name="van">
+                <label for="van">I own a panel van or v8 ute</label>
+            </div>
+            <div>
+                <input type="checkbox" id="work" name="work">
+                <label for="work">I work full-time</label>
+            </div>
+            <div>
+                <input type="checkbox" id="rich" name="rich">
+                <label for="rich">My parents are rich</label>
+            </div>
+            <div>
+                <input type="checkbox" id="public" name="public">
+                <label for="public">Is the date at a well lit public location</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="political">Political Persuasion</label>
+            <select name="political" id="political">
+                <option value="left" selected>Left Wing</option>
+                <option value="right">Right Wing</option>
+            </select>
+            <label for="education">Education level completed</label>
+            <select name="education" id="education">
+                <option value="university" selected>University</option>
+                <option value="school">High-School</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Essay Section</legend>
+            <p>In 50 words or more explain why you want to date my daughter</p>
+            <textarea name="why" id="why" cols="100" rows="6" placeholder="Enter text here"></textarea>
+            <p>Please upload contact detail for 2 references</p>
+            <textarea name="references" id="references" cols="100" rows="6" placeholder="Enter text here"></textarea>
+            <div>
+                <label for="attach">Upload Police clearance certificate, bank statement and medical certificate here: </label>
+                <input type="file" name="attach" id="attach">
+            </div>
+        </fieldset>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>

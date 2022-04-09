@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: aquamarine;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: rgb(199, 92, 92);
+}
+
+ol li {
+    color: white;
+}

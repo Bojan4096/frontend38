@@ -1,0 +1,36 @@
+thead tr {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+table.main td {
+    padding: 10px;
+}
+
+table.main {
+    border-collapse: collapse;
+}
+
+table.main tbody tr:hover {
+    background-color: rgb(175, 154, 196);
+}
+
+table.main tr:nth-child(2n) {
+    background-color: rgb(108, 228, 148);
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#last {
+    text-align: right;
+}
+
+select:hover {
+    background-color: rgb(240, 212, 212);
+}
