@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+}
+
+main>div {
+    border-radius: 10px;
+    border: 2px solid green;
+    padding: 1%;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}

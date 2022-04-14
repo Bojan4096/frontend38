@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+main>div {
+    background-color: aquamarine;
+    background-image: linear-gradient(aquamarine, rgb(133, 201, 112));
+    width: 50%;
+    display: flex;
+}
+
+p {
+    margin: 15px 10px;
+}
+
+img {
+    margin: 15px 30px;
+    width: 140px;
+}

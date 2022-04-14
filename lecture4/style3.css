@@ -1,0 +1,41 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    height: inherit;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    width: 33%;
+}
+
+nav {
+    border-bottom: 2px solid rgb(194, 27, 158);
+    margin: 0;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    width: 25%;
+    text-align: center;
+    color: black;
+    height: inherit;
+}
+
+a:hover {
+    background-color: rgb(212, 156, 71);
+}

@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+img {
+    width: 100%;
+}
+
+#tekst1 {
+    position: absolute;
+    right: 78%;
+    top: 32%;
+    font-weight: bold;
+}
+
+#tekst2 {
+    position: absolute;
+    top: 46%;
+    left: 78%;
+    font-weight: bold;
+}
+
+#tekst3 {
+    position: absolute;
+    right: 78%;
+    top: 60%;
+    font-weight: bold;
+}
