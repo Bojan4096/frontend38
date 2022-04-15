@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 100vh;
+}
+
+img {
+    margin: 15px 30px;
+    width: 140px;
+    height: 140px
+}
+
+div, img, p {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    width: 65%;
+    text-align: justify;
+    margin: 15px 10px;
+}
+
+div {
+    width: 50%;
+    transition: transform 1000ms ease-in 100ms;
+}
+
+div:hover {
+    transform: rotateX(360deg) rotateY(360deg);
+}

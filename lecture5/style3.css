@@ -1,0 +1,25 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main>div {
+    width: 30%;
+    border: 1px solid purple;
+    border-radius: 15px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1080px) {
+    main>div {
+        width: 40%;
+    }
+  }
+
+@media only screen and (max-width: 720px) {
+    main>div {
+        width: 100%;
+    }
+}

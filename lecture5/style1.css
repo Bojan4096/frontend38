@@ -1,0 +1,19 @@
+.static, .moved {
+    width: 200px;
+    height: 200px;
+}
+
+.static {
+    background-color: aquamarine;
+}
+
+.moved {
+    background-color: rgb(190, 74, 74);
+    /* background pisemo da bi naveli element za koji trebba tranzicija, u suprotnom bi radio za sve, sto bi usporilo stranicu */
+    transition: background 1000ms, transform 500ms ease-in 700ms;
+}
+
+.moved:hover {
+    background-color: red;
+    transform: translate(140px, 140px) rotateY(180deg);
+}
