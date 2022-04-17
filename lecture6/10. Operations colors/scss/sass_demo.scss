@@ -1,0 +1,91 @@
+$bodyBackground:		#193441;
+$containerBackground:	#3e606f;
+$mainTextColor:  		#d1dbbd;
+$orangeTextColor:		#fecb92;
+$centerMargin:			0 auto;
+$containerPadding:		2em;
+$mainSansFont:			Helvetica, Arial, sans-serif;
+$mainContainerWidth:	900px;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background:  $bodyBackground;
+	font-family: $mainSansFont;
+	color: 		 $mainTextColor;
+
+	.mainContainer {
+		width: $mainContainerWidth;
+		height: 100%;
+		margin: $centerMargin;
+		background: $containerBackground;
+		text-align: justify;
+		padding: $containerPadding;
+	}
+
+	h1 {
+		margin-bottom: 0.2em;
+	}
+
+	h2 {
+		color: $orangeTextColor;
+		font-size: 1.2em;
+		margin-bottom: 3em;
+	}
+
+	.row {
+		margin: 1em 0;
+		float: left;
+	}
+
+	.color-rect {
+		float: left;
+		height: 50px;
+		width: 100px;
+		padding: 15px;
+	}
+
+	.operator {
+		height: 50px;
+		width: 50px;
+		text-align: center;
+		font-size: 30px;
+		float: left;
+	}
+
+	.r468499 {
+		@extend .color-rect;
+		background: #468499;
+	}
+
+	.r204479 {
+		@extend .color-rect;
+		background: #ffffff;
+	}
+
+	.res1 {
+		@extend .color-rect;
+		background: #468499 + #204479;
+		color: $bodyBackground;
+	}
+
+	.legend1 {
+		@extend .color-rect;
+		width: 120px;
+	}
+
+	.r010203 {
+		@extend .color-rect;
+		background: #010203;
+	}
+
+	.res2 {
+		@extend .color-rect;
+		background: #467050 * 2;
+		color: $bodyBackground;
+	}
+}

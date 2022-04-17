@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #D4746A;
+  color: #550800;
+  font-size: 16px;
+}
+
+.mainContainer {
+  width: 800px;
+  margin: 0 auto;
+  background: #FFB2AA;
+  padding: 15px;
+}
+.mainContainer .mainNavigation {
+  width: 100%;
+  background: #801F15;
+  border-radius: 4px;
+}
+.mainContainer .mainNavigation ul {
+  list-style-type: none;
+}
+.mainContainer .mainNavigation ul li {
+  display: inline-block;
+  padding: 5px;
+}
+.mainContainer .mainNavigation ul li:hover {
+  background: #D4746A;
+}
+.mainContainer .mainNavigation ul li a {
+  color: #FFB2AA;
+  text-decoration: none;
+}
+.mainContainer h1, .mainContainer h2 {
+  text-align: right;
+}
+
+.mainContainer h1 {
+  font-size: 32px;
+}
+
+.mainContainer h2 {
+  color: #D4746A;
+  margin-bottom: 1em;
+  font-size: 24px;
+}
+
+.mainContainer p {
+  text-align: justify;
+  margin: 1em 0;
+}
+.mainContainer p.quoted {
+  font-style: italic;
+}
+.mainContainer p.col-3 {
+  display: inline-block;
+  width: 250.6666666667px;
+  padding: 0 8px;
+}
+
+p.col-3 + p.col-3 {
+  border-left: 1px solid #550800;
+}
+
+/*# sourceMappingURL=style.css.map */

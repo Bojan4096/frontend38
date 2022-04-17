@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/sass_demo.scss","../scss/_variables.scss"],"names":[],"mappings":"AAGA;EACC;EACA;EACA;;;AAGD;EACC,YCVe;EDWf;EACA;;;AAGD;EACC;EACA;;AAEA;EACC;;AAEA;EACC;EACA,OCxBa;;;AD6BhB;EACC;EACA;EACA;EACA,YChCiB;EDiCjB;;;AAGD;EACC;EACA;EACA;EACA;EACA,SCxCe;;;AD2ChB;EACC;EACA;EACA;EACA,SC/Ce;;;ADkDhB;EACC,eCnDe","file":"sass_demo.css"}

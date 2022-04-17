@@ -1,0 +1,55 @@
+@import 'variables';
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background:  $color_primary;
+	font-family: Helvetica, Arial, sans-serif;
+	color: 		 #d1dbbd;
+}
+
+.mainNavigation {
+	width: 100%;
+	text-align: center;
+
+	li {
+		border-bottom: 1px solid $color-secondary;
+
+		a {
+			text-decoration: none;
+			color: $color_primary;
+		}
+	}
+}
+
+.mainContainer {
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	background: $color-secondary;
+	text-align: justify;
+}
+
+.leftSidebar {
+	float: left;
+	width: 300px;
+	height: 100%;
+	background: #d1dbbd;
+	padding: $space-classic;
+}
+
+.rightSidebar {
+	float: right;
+	width: 600px;
+	height: 100%;
+	padding: $space-classic;
+}
+
+h1 {
+	margin-bottom: $space-classic;
+}

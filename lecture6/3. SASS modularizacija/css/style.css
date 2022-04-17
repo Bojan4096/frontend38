@@ -1,0 +1,18 @@
+nav {
+  background-color: rgb(149, 156, 255);
+}
+nav ol {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 3em;
+}
+nav ol li {
+  list-style-type: none;
+}
+nav ol li a {
+  text-decoration: none;
+  color: darkgreen;
+}
+
+/*# sourceMappingURL=style.css.map */
