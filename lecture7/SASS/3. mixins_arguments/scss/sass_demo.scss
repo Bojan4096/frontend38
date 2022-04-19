@@ -1,0 +1,42 @@
+@import 'vars';
+@import 'mixins';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background:  $bodyBackground;
+	font-family: $mainSansFont;
+	color: 		 $mainTextColor;
+
+	.mainContainer {
+		width: 70%;
+		height: 90%;
+		margin: $centerMargin;
+		padding: $containerPadding;
+		background: $containerBackground;
+		text-align: justify;
+	}
+
+	h1 {
+		margin-bottom: 2em;
+	}
+
+	p.quote {
+		@include quoted-text;
+	}
+
+	a.read-more-link {
+		color: $orangeTextColor;
+		text-decoration: none;
+		font-weight: bold;
+		@include link-hover(rgb(0, 0, 0));
+	}
+
+	a.dont_read_more {
+		@include link-hover(#f00);
+	}
+}

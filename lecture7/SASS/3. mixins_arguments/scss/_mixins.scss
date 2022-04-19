@@ -1,0 +1,12 @@
+@mixin quoted-text {
+	padding: 1em;
+	font-style: italic;
+	color: $orangeTextColor;
+	font-size: 0.9em;
+}
+
+@mixin link-hover($color) {
+	&:hover {
+		color: $color;
+	}
+}

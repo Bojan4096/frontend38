@@ -1,0 +1,22 @@
+@mixin background {
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+@mixin user-select {
+    -webkit-user-select: none;        
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+}
+
+@mixin button {
+    border: none;
+    font-size: 1.3em;
+    padding: .2em .1em;
+    cursor: pointer;
+    float: right;
+    margin: 0 .2em;
+    @content
+}
